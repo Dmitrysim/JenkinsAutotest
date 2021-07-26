@@ -47,7 +47,7 @@ public class Tests extends BaseClass{
         driver.findElement(By.id("Password")).sendKeys("Test@123");
         driver.findElement(By.xpath("//button[@class='button-1 login-button']")).click();
         //Thread.sleep(3000);
-        Assert.assertEquals(driver.getTitle(), "nopCommerce dem store. Login");
+        Assert.assertEquals(driver.getTitle(), "nopCommerce demo store. Login");
     }
 
     @Test(priority = 3)
