@@ -34,6 +34,7 @@ public class Tests extends BaseClass{
         Assert.assertEquals(disstatus, true);
     }
 
+
     @Test(priority = 2)
     @Description("Verify Logo presence on Home Page")
     @Epic("EP001")
@@ -41,7 +42,7 @@ public class Tests extends BaseClass{
     @Story("Story: Valid login")
     @Step("Verify login")
     @Severity(SeverityLevel.BLOCKER)
-    public void loginTest() {
+    public void loginTest() {git 
         driver.findElement(By.linkText("Log in")).click();
         driver.findElement(By.id("Email")).sendKeys("pavanoltraining@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("Test@123");
@@ -49,6 +50,7 @@ public class Tests extends BaseClass{
         //Thread.sleep(3000);
         Assert.assertEquals(driver.getTitle(), "nopCommerce demo store. Login");
     }
+
 
     @Test(priority = 3)
     @Description("Verify user registration")
