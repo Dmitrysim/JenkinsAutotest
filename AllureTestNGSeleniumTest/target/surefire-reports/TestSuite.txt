@@ -1,8 +1,56 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 15.621 s <<< FAILURE! - in TestSuite
-loginTest(allureReports.Tests)  Time elapsed: 5.162 s  <<< FAILURE!
-java.lang.AssertionError: expected [nopCommerce dem store. Login] but found [nopCommerce demo store. Login]
-	at allureReports.Tests.loginTest(Tests.java:50)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 610.735 s <<< FAILURE! - in TestSuite
+setup(allureReports.Tests)  Time elapsed: 608.962 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'LAPTOP-86KEJ58R', ip: '10.255.65.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C53733+2504499]
+	Ordinal0 [0x00BEC401+2081793]
+	Ordinal0 [0x00AF2628+1058344]
+	Ordinal0 [0x00AE4EBF+1003199]
+	Ordinal0 [0x00AE3EF9+999161]
+	Ordinal0 [0x00AE41B6+999862]
+	Ordinal0 [0x00AE3AA5+998053]
+	Ordinal0 [0x00AEA6DD+1025757]
+	Ordinal0 [0x00AE3A61+997985]
+	Ordinal0 [0x00AE4986+1001862]
+	Ordinal0 [0x00AE3EF9+999161]
+	Ordinal0 [0x00AE41B6+999862]
+	Ordinal0 [0x00AE3AA5+998053]
+	Ordinal0 [0x00AE990C+1022220]
+	Ordinal0 [0x00AE3A61+997985]
+	Ordinal0 [0x00AE4986+1001862]
+	Ordinal0 [0x00AE3EF9+999161]
+	Ordinal0 [0x00AE41B6+999862]
+	Ordinal0 [0x00AE3AA5+998053]
+	Ordinal0 [0x00ADF5DD+980445]
+	Ordinal0 [0x00AE3A61+997985]
+	Ordinal0 [0x00AE3800+997376]
+	Ordinal0 [0x00AE3599+996761]
+	Ordinal0 [0x00AF3830+1062960]
+	Ordinal0 [0x00B3ABB9+1354681]
+	Ordinal0 [0x00B397DA+1349594]
+	Ordinal0 [0x00B35D4B+1334603]
+	Ordinal0 [0x00B122B4+1188532]
+	Ordinal0 [0x00B13149+1192265]
+	GetHandleVerifier [0x00DCFB8C+1512252]
+	GetHandleVerifier [0x00E7B0DF+2214031]
+	GetHandleVerifier [0x00CD4BC3+484211]
+	GetHandleVerifier [0x00CD3E69+480793]
+	Ordinal0 [0x00BF218D+2105741]
+	Ordinal0 [0x00BF66E8+2123496]
+	Ordinal0 [0x00BF6827+2123815]
+	Ordinal0 [0x00BFFB73+2161523]
+	BaseThreadInitThunk [0x772CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37A6E+238]
+
+	at allureReports.Tests.setup(Tests.java:21)
 

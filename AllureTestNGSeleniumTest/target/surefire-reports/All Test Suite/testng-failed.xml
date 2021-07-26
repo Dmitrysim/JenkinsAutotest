@@ -6,6 +6,7 @@
       <class name="allureReports.Tests">
         <methods>
           <include name="loginTest"/>
+          <include name="logoResenceTest"/>
           <include name="registrationTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
